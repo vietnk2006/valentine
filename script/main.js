@@ -288,7 +288,6 @@ const fetchData = () => {
               .setAttribute("src", data[customData]);
           } else {
             document.getElementById(customData).innerText = data[customData];
-            document.getElementById('a').style.backgroundImage="url('img/back.jpg')";
           }
         }
       });
